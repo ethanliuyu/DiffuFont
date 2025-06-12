@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """
 Training utilities for FontDiffusionUNet.
-包含：
-• Beta schedule 与前向加噪    (forward diffusion)
-• 训练步骤、损失计算（MSE / offset / perceptual）
-• 模型保存、加载
-• 采样 (DDIM, 简化实现)
 """
 
 from __future__ import annotations
